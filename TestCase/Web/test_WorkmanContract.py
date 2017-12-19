@@ -22,7 +22,7 @@ class WorkmanContract(unittest.TestCase):
         self.path = setting_path()
         self.file_path = r'C:\Users\%s\Desktop\UIAutotest\Page\file\1.jpg' % (str(getpass.getuser()))
         config.read(self.path)
-        url = config.get('testUrl', 'url')
+        url = config.get('testUrl', 'perfurl')
         self.username = config.get('labor', 'Wuhuigang')
         self.username1 = config.get('projectManager', 'taohui')
         self.password = config.get('operation', 'password')
@@ -66,14 +66,21 @@ class WorkmanContract(unittest.TestCase):
         change_workman_contract_date(self.browser)
 
     def test_04_edit_contract(self):
+        # 合同编辑
         web_login(self.browser, self.username, self.password)
         workers_name = get_temporary_mobile_number()
         edit_workers_contract(self.browser, workers_name, self.file_path)
 
     def test_05_terminating_contract(self):
+        # 合同终止
         web_login(self.browser, self.username, self.password)
         workers_name = get_temporary_mobile_number()
         termination_of_the_contract(self.browser, workers_name)
+
+    def test_06_out_of_date_workers(self):
+        web_login(self.browser, self.username, self.password)
+        workers_name = get_temporary_mobile_number()
+        workman_contract(self.browser, workers_name)
 
     def tearDown(self):
         self.browser.close()

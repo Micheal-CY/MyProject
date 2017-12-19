@@ -211,7 +211,7 @@ def get_temporary_mobile_number():
     ws1 = wb1.get_sheet_by_name(sheets_first)
     return ws1['A1'].value
 if __name__ == '__main__':
-    a = getCompanyName()[2:-4]
+    a = get_temporary_mobile_number()
     print(a)
     print(type(a))
 
