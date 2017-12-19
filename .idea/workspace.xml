@@ -4,8 +4,9 @@
     <list default="true" id="b9688e1b-3d0c-4dd1-a498-49757c3e95eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/file/mobile_number.xlsx" afterPath="$PROJECT_DIR$/Page/file/mobile_number.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/random_data.py" afterPath="$PROJECT_DIR$/Page/random_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/TestCase/Web/.cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/XXXX.py" afterPath="$PROJECT_DIR$/Page/web/XXXX.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/web_login.py" afterPath="$PROJECT_DIR$/Page/web/web_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/workman_contract.py" afterPath="$PROJECT_DIR$/Page/web/workman_contract.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/setting.ini" afterPath="$PROJECT_DIR$/TestCase/Web/setting.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" afterPath="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
     </list>
@@ -28,16 +29,16 @@
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Register_and_test_01_WorkerRegister.coverage" NAME="py.test in Register and test_01_WorkerRegister Coverage Results" MODIFIED="1511923059342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$setting_area.coverage" NAME="setting_area Coverage Results" MODIFIED="1510734313542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
     <SUITE FILE_PATH="coverage/UIAutotest$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1511769245542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TeseCase/Web" />
-    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WorkmanContract_and_test_01_workman_contract_time.coverage" NAME="py.test in WorkmanContract and test_01_workman_contract_time Coverage Results" MODIFIED="1512986977283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_AddPackageContract_and_test_01_general_contract.coverage" NAME="py.test in AddPackageContract and test_01_general_contract Coverage Results" MODIFIED="1513240671687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WorkmanContract_and_test_01_workman_contract_time.coverage" NAME="py.test in WorkmanContract and test_01_workman_contract_time Coverage Results" MODIFIED="1513674883975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$time__1_.coverage" NAME="time (1) Coverage Results" MODIFIED="1499758746231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UIAutotest$Execution_case.coverage" NAME="Execution_case Coverage Results" MODIFIED="1513079952008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_PersonalInformation_and_test_01_work_experience.coverage" NAME="py.test in PersonalInformation and test_01_work_experience Coverage Results" MODIFIED="1512654226246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_CyGoHome__1_.coverage" NAME="py.test in CyGoHome (1) Coverage Results" MODIFIED="1511166187187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$sql__1_.coverage" NAME="sql (1) Coverage Results" MODIFIED="1503656609987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_NewCompany_and_test_newCompany.coverage" NAME="py.test in NewCompany and test_newCompany Coverage Results" MODIFIED="1507811939291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WorkmanContract.coverage" NAME="py.test in WorkmanContract Coverage Results" MODIFIED="1513156363893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_CompanyInformation_and_test_add_company_information.coverage" NAME="py.test in CompanyInformation and test_add_company_information Coverage Results" MODIFIED="1513219023955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WorkmanContract.coverage" NAME="py.test in WorkmanContract Coverage Results" MODIFIED="1513675565082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_DeviceManagement_and_test_04_camera_management.coverage" NAME="py.test in DeviceManagement and test_04_camera_management Coverage Results" MODIFIED="1512547619170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_OOOO_py.coverage" NAME="py.test in OOOO.py Coverage Results" MODIFIED="1510839334065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Test.coverage" NAME="py.test in Test Coverage Results" MODIFIED="1511437592020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -137,18 +138,48 @@
       <file leaf-file-name="test_WorkmanContract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.ini" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XXXX.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Page/web/XXXX.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workman_contract.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/web/workman_contract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/web/web_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="551">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,10 +200,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <marker date="1513666251080" expanded="true" signature="167:267" ph="..." />
-                <marker date="1513666251080" expanded="true" signature="233:267" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,28 +212,6 @@
               <caret line="137" column="103" selection-start-line="137" selection-start-column="103" selection-end-line="137" selection-end-column="103" />
               <folding>
                 <element signature="e#36#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/python/Lib/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4009">
-              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select_city.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/web/select_city.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="42" column="26" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="26" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -266,7 +272,6 @@
         <option value="$PROJECT_DIR$/TestCase/Web/company_information.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/initiate_application.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/PersonalInformation.py" />
-        <option value="$PROJECT_DIR$/Page/web/web_login.py" />
         <option value="$PROJECT_DIR$/Page/web/attendance_machine.py" />
         <option value="$PROJECT_DIR$/Page/web/location_card_management.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/add_package_contract.py" />
@@ -286,17 +291,18 @@
         <option value="$PROJECT_DIR$/Page/web/get_now_time.py" />
         <option value="$PROJECT_DIR$/Page/android/stop_appium.py" />
         <option value="$PROJECT_DIR$/Page/web/personal_information.py" />
-        <option value="$PROJECT_DIR$/Page/web/XXXX.py" />
         <option value="$PROJECT_DIR$/TestCase/Android/login.py" />
-        <option value="$PROJECT_DIR$/Page/web/workman_contract.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/test_company_information.py" />
         <option value="$PROJECT_DIR$/Page/web/select_city.py" />
         <option value="$PROJECT_DIR$/Page/web/new_general_contract.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/test_add_package_contract.py" />
         <option value="$PROJECT_DIR$/Page/web/XXXXX.py" />
         <option value="$PROJECT_DIR$/Page/random_data.py" />
-        <option value="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/setting.ini" />
+        <option value="$PROJECT_DIR$/Page/web/web_login.py" />
+        <option value="$PROJECT_DIR$/Page/web/workman_contract.py" />
+        <option value="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
+        <option value="$PROJECT_DIR$/Page/web/XXXX.py" />
       </list>
     </option>
   </component>
@@ -468,6 +474,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutotest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutotest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="file" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -530,32 +554,7 @@
       <recent name="C:\Users\CY\Desktop\UIAutotest\CY" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_WorkmanContract.py">
-    <configuration default="false" name="py.test in AddPackageContract" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Web/test_add_package_contract.py" />
-      <option name="keywords" value="AddPackageContract" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in WorkmanContract">
     <configuration default="false" name="random_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -572,31 +571,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page/random_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_add_package_contract.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Web/test_add_package_contract.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -640,6 +614,56 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in WorkmanContract and test_01_workman_contract_time" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Page/web/XXXX.py" />
+      <option name="keywords" value="WorkmanContract and test_01_workman_contract_time" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in WorkmanContract" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Page/web/XXXX.py" />
+      <option name="keywords" value="WorkmanContract" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -870,19 +894,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.run_case (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in AddPackageContract" />
-      <item index="2" class="java.lang.String" itemvalue="Python.random_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_package_contract.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.login" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.random_data" />
+      <item index="2" class="java.lang.String" itemvalue="Python.login" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract and test_01_workman_contract_time" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.random_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.login" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_package_contract.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in AddPackageContract" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract and test_01_workman_contract_time" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.random_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
@@ -921,33 +945,40 @@
       <option name="project" value="LOCAL" />
       <updated>1513666482323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete setting">
+      <created>1513674042571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513674042571</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_AddPackageContract - 2017.12.15 at 15h 17m 46s.xml">
-      <configuration name="py.test in AddPackageContract" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_AddPackageContract - 2017.12.15 at 15h 27m 43s.xml">
-      <configuration name="py.test in AddPackageContract" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_AddPackageContract - 2017.12.15 at 15h 28m 30s.xml">
-      <configuration name="py.test in AddPackageContract" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_AddPackageContract - 2017.12.15 at 15h 30m 38s.xml">
-      <configuration name="py.test in AddPackageContract" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_AddPackageContract - 2017.12.15 at 15h 32m 35s.xml">
-      <configuration name="py.test in AddPackageContract" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_CompanyInformation_and_test_add_company_information - 2017.12.14 at 10h 37m 03s.xml">
-      <configuration name="py.test in CompanyInformation and test_add_company_information" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_CompanyInformation_and_test_add_company_information - 2017.12.14 at 10h 37m 44s.xml">
       <configuration name="py.test in CompanyInformation and test_add_company_information" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_PersonalInformation - 2017.12.14 at 10h 28m 54s.xml">
       <configuration name="py.test in PersonalInformation" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 19m 42s.xml">
+      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 21m 10s.xml">
+      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 27m 38s.xml">
+      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 14m 01s.xml">
+      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 14m 43s.xml">
+      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 15m 16s.xml">
+      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_WorkmanContract_py - 2017.12.19 at 16h 41m 32s.xml">
       <configuration name="py.test in test_WorkmanContract.py" configurationId="tests" />
@@ -973,9 +1004,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10885806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11675676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4789189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29659212" sideWeight="0.12596402" order="2" side_tool="true" content_ui="tabs" />
@@ -987,7 +1019,6 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30368763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1016,6 +1047,24 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1030,7 +1079,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first push myself github" />
     <MESSAGE value="delete photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete photo" />
+    <MESSAGE value="delete setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete setting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,19 +1106,11 @@
           <option name="timeStamp" value="565" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="566" />
+      <option name="time" value="568" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-12-19-22-57.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-21-01-02.jpg" />
     <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-20-59-50.jpg" />
     <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-21-00-30.jpg" />
@@ -1256,13 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/XXXX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/web/select_city.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -1298,17 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/XXXXX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <marker date="1513666251080" expanded="true" signature="167:267" ph="..." />
-            <marker date="1513666251080" expanded="true" signature="233:267" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/Android/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1341,26 +1365,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-19-16-41-32.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/web/XXXXX.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/web/web_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Page/web/workman_contract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+        <state relative-caret-position="665">
+          <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
+    <entry file="file://$PROJECT_DIR$/Page/web/XXXX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="101">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>

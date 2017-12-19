@@ -48,7 +48,7 @@ class WorkmanContract(unittest.TestCase):
         logout(self.browser)
         # 劳务经理登陆
         web_login(self.browser, self.username, self.password)
-        workman_contract(self.browser, self.people_name)
+        workman_contract(self.browser, self.people_name, 1)
 
     def test_02_workman_contract_piece(self):
         # 工人注册
@@ -80,7 +80,7 @@ class WorkmanContract(unittest.TestCase):
     def test_06_out_of_date_workers(self):
         web_login(self.browser, self.username, self.password)
         workers_name = get_temporary_mobile_number()
-        workman_contract(self.browser, workers_name)
+        workman_contract(self.browser, workers_name, 0)
 
     def tearDown(self):
         self.browser.close()

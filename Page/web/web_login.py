@@ -7,7 +7,8 @@ from Page.web.get_now_time import screenshot_path
 
 
 def web_login(driver, username, password):
-    driver.find_element_by_xpath("//button[contains(text(),'登录')]").click()
+    get_element(driver, ('xpath', "//button[contains(text(),'登录')]")).click()
+    # driver.find_element_by_xpath("//button[contains(text(),'登录')]").click()
     get_element(driver, ('id', "username")).send_keys(username)
     get_element(driver, ('id', "password")).send_keys(password)
     get_element(driver, ('id', "loginButton")).click()

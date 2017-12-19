@@ -22,7 +22,7 @@ class WorkmanContract(unittest.TestCase):
         self.path = setting_path()
         self.file_path = r'C:\Users\%s\Desktop\UIAutotest\Page\file\1.jpg' % (str(getpass.getuser()))
         config.read(self.path)
-        url = config.get('testUrl', 'url')
+        url = config.get('testUrl', 'perfurl')
         self.username = config.get('labor', 'Wuhuigang')
         self.username1 = config.get('projectManager', 'taohui')
         self.password = config.get('operation', 'password')
@@ -40,9 +40,26 @@ class WorkmanContract(unittest.TestCase):
         self.code = 11111
 
     def test_01_workman_contract_time(self):
+        # 工人注册
+        web_workman_register(self.browser, self.mobile, self.code, self.password)
+        temporary_mobile_number(self.people_name)
+        # 实名认证
+        verify_real_name(self.browser, self.people_name, self.identity, self.file_path, self.file_path)
+        logout(self.browser)
+        # 劳务经理登陆
+        web_login(self.browser, self.username, self.password)
+        workman_contract(self.browser, self.people_name, 1)
+
+    def test_05_terminating_contract(self):
+        # 合同终止
         web_login(self.browser, self.username, self.password)
         workers_name = get_temporary_mobile_number()
-        edit_workers_contract(self.browser, workers_name, self.file_path)
+        termination_of_the_contract(self.browser, workers_name)
+
+    def test_06_out_of_date_workers(self):
+        web_login(self.browser, self.username, self.password)
+        workers_name = get_temporary_mobile_number()
+        workman_contract(self.browser, workers_name, 0)
 
     def tearDown(self):
         self.browser.close()

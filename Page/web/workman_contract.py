@@ -10,7 +10,7 @@ from Page.web.get_now_time import bug_photo, get_now_dates, get_future_date, get
 from Page.web.into_level import into_one_level, into_two_level
 
 
-def workman_contract(driver, people):
+def workman_contract(driver, people, out_of_date):
     try:
         into_one_level(driver, "任务面板")
         sleep(1)
@@ -37,7 +37,10 @@ def workman_contract(driver, people):
         setting_input_time(driver)
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[0].send_keys('08:00')
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[1].send_keys('18:00')
-        get_element(driver, ('xpath', "//input[@placeholder='小于用工合同结束日期']")).send_keys(get_pass_dates(2))
+        if out_of_date:
+            get_element(driver, ('xpath', "//input[@placeholder='小于用工合同结束日期']")).send_keys(get_pass_dates(2))
+        else:
+            get_element(driver, ('xpath', "//input[@placeholder='小于用工合同结束日期']")).send_keys(get_now_dates())
         get_element(driver, ('xpath', "//input[@placeholder='选择日期不得大于分包合同结束日期']")).send_keys(get_future_date(180))
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[2].send_keys('10')
         get_element(driver, ('xpath', "//button[contains(text(),'完成')]")).click()
