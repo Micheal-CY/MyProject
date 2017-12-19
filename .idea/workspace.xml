@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9688e1b-3d0c-4dd1-a498-49757c3e95eb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-12-20-27-47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-12-20-27-52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-14-43-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-14-47-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-14-47-52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-16-29-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-05-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-09-34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-55-39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-58-42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-14-10-28-42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-15-15-17-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-15-15-17-45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-15-15-30-37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Page/bug_photo/2017-12-15-15-32-34.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/XXXXX.py" afterPath="$PROJECT_DIR$/Page/web/XXXXX.py" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -892,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510729489972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my first push myself github">
+      <created>1513666260594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513666260594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -938,9 +959,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328541" sideWeight="0.874036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328541" sideWeight="0.874036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10885806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
