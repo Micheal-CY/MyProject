@@ -1,378 +1,467 @@
-[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
-[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4723
-[36minfo[39m: [debug] Non-default server args: {"udid":"192.168.2.75:5589","address":"127.0.0.1","sessionOverride":true,"defaultCommandTimeout":600}
-[36minfo[39m: Console LogLevel: debug
-[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}},"desiredCapabilities":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}}[39m
-[36minfo[39m: Client User-Agent string: Python http auth
-[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
-[36minfo[39m: [debug] Creating new appium session ec8f3414-7baa-4435-80d9-c07503f4c425
-[36minfo[39m: Starting android appium
-[36minfo[39m: [debug] Getting Java version
-[36minfo[39m: Java version is: 1.8.0_131
-[36minfo[39m: [debug] Checking whether adb is present
-[36minfo[39m: [debug] Using adb from C:\android-sdk\platform-tools\platform-tools\adb.exe
-[33mwarn[39m: No app capability, can't parse package/activity
-[36minfo[39m: [debug] Using fast reset? true
-[36minfo[39m: [debug] Preparing device for session
-[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
-[36minfo[39m: Retrieving device
-[36minfo[39m: [debug] Trying to find a connected android device
-[36minfo[39m: [debug] Getting connected devices...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe devices
-[36minfo[39m: [debug] 1 device(s) connected
-[36minfo[39m: Found device 192.168.2.75:5589
-[36minfo[39m: [debug] Setting device id to 192.168.2.75:5589
-[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 wait-for-device
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "echo 'ready'"
-[36minfo[39m: [debug] Starting logcat capture
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: Device API level is: 23
-[36minfo[39m: [debug] Extracting strings for language: default
-[36minfo[39m: [debug] Apk doesn't exist locally
-[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "rm -rf /data/local/tmp/strings.json"
-[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
-[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
-[36minfo[39m: [debug] Forwarding system:4724 to device:4724
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 forward tcp:4724 tcp:4724
-[36minfo[39m: [debug] Pushing appium bootstrap to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 push "C:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
-[36minfo[39m: [debug] Enabling Unicode keyboard support
-[36minfo[39m: [debug] Pushing unicode ime to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 install "C:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "settings get secure default_input_method"
-[36minfo[39m: [debug] Unsetting IME 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime enable io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: Starting App
-[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
-[36minfo[39m: [debug] Getting all processes with 'uiautomator'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ps"| grep uiautomator
-[36minfo[39m: [debug] No matching processes found
-[36minfo[39m: [debug] Running bootstrap
-[36minfo[39m: [debug] spawning: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.android.calculator2 -e disableAndroidWatchers false
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-[36minfo[39m: [debug] Waking up device if it's not alive
-[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "dumpsys window"
-[36minfo[39m: Unlocking screen
-[36minfo[39m: [debug] Screen is locked, trying to unlock
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n io.appium.unlock/.Unlock"
-[31merror[39m: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
-[36minfo[39m: [debug] Resetting IME to 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set com.baidu.input_mi/.ImeService"
-[36minfo[39m: [debug] Stopping logcat capture
-[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
-[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Closed client connection
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Time: 3.867[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] OK (1 test)[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1[39m
-[36minfo[39m: [debug] UiAutomator shut down normally
-[36minfo[39m: [debug] Cleaning up android objects
-[36minfo[39m: [debug] Cleaning up appium session
-[31merror[39m: Failed to start an Appium session, err was: Error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
-[36minfo[39m: [debug] Error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
-    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:1156:21)
-    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:180:9)
-    at ChildProcess.exithandler (child_process.js:742:7)
-    at ChildProcess.emit (events.js:110:17)
-    at maybeClose (child_process.js:1016:16)
-    at Process.ChildProcess._handle.onexit (child_process.js:1088:5)
-[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity)","origValue":"Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity"},"sessionId":null}
-[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 19601.219 ms - 346[39m [90m[39m
-[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}},"desiredCapabilities":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}}[39m
-[36minfo[39m: Client User-Agent string: Python http auth
-[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
-[36minfo[39m: [debug] Creating new appium session 63be6438-b2a7-41e1-ac12-b6f283b57875
-[36minfo[39m: Starting android appium
-[36minfo[39m: [debug] Getting Java version
-[36minfo[39m: Java version is: 1.8.0_131
-[36minfo[39m: [debug] Checking whether adb is present
-[36minfo[39m: [debug] Using adb from C:\android-sdk\platform-tools\platform-tools\adb.exe
-[33mwarn[39m: No app capability, can't parse package/activity
-[36minfo[39m: [debug] Using fast reset? true
-[36minfo[39m: [debug] Preparing device for session
-[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
-[36minfo[39m: Retrieving device
-[36minfo[39m: [debug] Trying to find a connected android device
-[36minfo[39m: [debug] Getting connected devices...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe devices
-[36minfo[39m: [debug] 1 device(s) connected
-[36minfo[39m: Found device 192.168.2.75:5589
-[36minfo[39m: [debug] Setting device id to 192.168.2.75:5589
-[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 wait-for-device
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "echo 'ready'"
-[36minfo[39m: [debug] Starting logcat capture
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: Device API level is: 23
-[36minfo[39m: [debug] Extracting strings for language: default
-[36minfo[39m: [debug] Apk doesn't exist locally
-[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "rm -rf /data/local/tmp/strings.json"
-[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
-[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
-[36minfo[39m: [debug] Forwarding system:4724 to device:4724
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 forward tcp:4724 tcp:4724
-[36minfo[39m: [debug] Pushing appium bootstrap to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 push "C:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
-[36minfo[39m: [debug] Enabling Unicode keyboard support
-[36minfo[39m: [debug] Pushing unicode ime to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 install "C:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "settings get secure default_input_method"
-[36minfo[39m: [debug] Unsetting IME 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime enable io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: Starting App
-[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
-[36minfo[39m: [debug] Getting all processes with 'uiautomator'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ps"| grep uiautomator
-[36minfo[39m: [debug] No matching processes found
-[36minfo[39m: [debug] Running bootstrap
-[36minfo[39m: [debug] spawning: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.android.calculator2 -e disableAndroidWatchers false
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-[36minfo[39m: [debug] Waking up device if it's not alive
-[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "dumpsys window"
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
-[36minfo[39m: [debug] Screen already unlocked, continuing.
-[36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-[36minfo[39m: [debug] dataDir set to: /data/local/tmp
-[36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.android.calculator2/com.android.calculator2.Calculator"
-[36minfo[39m: [debug] Waiting for pkg "com.android.calculator2" and activity "com.android.calculator2.Calculator" to be focused
-[36minfo[39m: [debug] Getting focused package and activity
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "dumpsys window windows"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.release"
-[36minfo[39m: [debug] Device is at release version 6.0.1
-[36minfo[39m: [debug] Device launched! Ready for commands
-[36minfo[39m: [debug] Setting command timeout to the default of 600 secs
-[36minfo[39m: [debug] Appium session started with sessionId 63be6438-b2a7-41e1-ac12-b6f283b57875
-[36minfo[39m: [37m<-- POST /wd/hub/session [39m[36m303[39m[90m 10522.651 ms - 74[39m [90m[39m
-[36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/63be6438-b2a7-41e1-ac12-b6f283b57875[39m [90m{}[39m
-[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"platformName":"Android","deviceName":"192.168.2.75:5589","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"sessionId":"63be6438-b2a7-41e1-ac12-b6f283b57875"}
-[36minfo[39m: [37m<-- GET /wd/hub/session/63be6438-b2a7-41e1-ac12-b6f283b57875 [39m[32m200[39m[90m 3.298 ms - 739[39m [90m{"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"platformName":"Android","deviceName":"192.168.2.75:5589","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"sessionId":"63be6438-b2a7-41e1-ac12-b6f283b57875"}[39m
-[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}},"desiredCapabilities":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true}}[39m
-[36minfo[39m: Client User-Agent string: Python http auth
-[36minfo[39m: Found an existing session to clobber, shutting it down first...
-[36minfo[39m: Shutting down appium session
-[36minfo[39m: [debug] Pressing the HOME button
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "input keyevent 3"
-[36minfo[39m: [debug] Resetting IME to 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set com.baidu.input_mi/.ImeService"
-[36minfo[39m: [debug] Stopping logcat capture
-[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
-[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Closed client connection
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Time: 20.029[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] OK (1 test)[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1[39m
-[36minfo[39m: [debug] UiAutomator shut down normally
-[36minfo[39m: [debug] Cleaning up android objects
-[36minfo[39m: [debug] Cleaning up appium session
-[36minfo[39m: Old session shut down OK, proceeding to new session
-[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
-[36minfo[39m: [debug] Creating new appium session 73d405ed-e256-4bce-8db2-16dbf78d5d99
-[36minfo[39m: Starting android appium
-[36minfo[39m: [debug] Getting Java version
-[36minfo[39m: Java version is: 1.8.0_131
-[36minfo[39m: [debug] Checking whether adb is present
-[36minfo[39m: [debug] Using adb from C:\android-sdk\platform-tools\platform-tools\adb.exe
-[33mwarn[39m: No app capability, can't parse package/activity
-[36minfo[39m: [debug] Using fast reset? true
-[36minfo[39m: [debug] Preparing device for session
-[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
-[36minfo[39m: Retrieving device
-[36minfo[39m: [debug] Trying to find a connected android device
-[36minfo[39m: [debug] Getting connected devices...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe devices
-[36minfo[39m: [debug] 1 device(s) connected
-[36minfo[39m: Found device 192.168.2.75:5589
-[36minfo[39m: [debug] Setting device id to 192.168.2.75:5589
-[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 wait-for-device
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "echo 'ready'"
-[36minfo[39m: [debug] Starting logcat capture
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: Device API level is: 23
-[36minfo[39m: [debug] Extracting strings for language: default
-[36minfo[39m: [debug] Apk doesn't exist locally
-[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "rm -rf /data/local/tmp/strings.json"
-[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
-[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
-[36minfo[39m: [debug] Forwarding system:4724 to device:4724
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 forward tcp:4724 tcp:4724
-[36minfo[39m: [debug] Pushing appium bootstrap to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 push "C:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
-[36minfo[39m: [debug] Enabling Unicode keyboard support
-[36minfo[39m: [debug] Pushing unicode ime to device...
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 install "C:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "settings get secure default_input_method"
-[36minfo[39m: [debug] Unsetting IME 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime enable io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set io.appium.android.ime/.UnicodeIME"
-[36minfo[39m: Starting App
-[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
-[36minfo[39m: [debug] Getting all processes with 'uiautomator'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ps"| grep uiautomator
-[36minfo[39m: [debug] No matching processes found
-[36minfo[39m: [debug] Running bootstrap
-[36minfo[39m: [debug] spawning: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.android.calculator2 -e disableAndroidWatchers false
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
-[36minfo[39m: [debug] Waking up device if it's not alive
-[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "dumpsys window"
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
-[36minfo[39m: [debug] Screen already unlocked, continuing.
-[36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
-[36minfo[39m: [debug] dataDir set to: /data/local/tmp
-[36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
-[36minfo[39m: [debug] Getting device API level
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.sdk"
-[36minfo[39m: [debug] Device is at API Level 23
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.android.calculator2/com.android.calculator2.Calculator"
-[36minfo[39m: [debug] Waiting for pkg "com.android.calculator2" and activity "com.android.calculator2.Calculator" to be focused
-[36minfo[39m: [debug] Getting focused package and activity
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "dumpsys window windows"
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "getprop ro.build.version.release"
-[36minfo[39m: [debug] Device is at release version 6.0.1
-[36minfo[39m: [debug] Device launched! Ready for commands
-[36minfo[39m: [debug] Setting command timeout to the default of 600 secs
-[36minfo[39m: [debug] Appium session started with sessionId 73d405ed-e256-4bce-8db2-16dbf78d5d99
-[36minfo[39m: [37m<-- POST /wd/hub/session [39m[36m303[39m[90m 17316.998 ms - 74[39m [90m[39m
-[36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/73d405ed-e256-4bce-8db2-16dbf78d5d99[39m [90m{}[39m
-[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"platformName":"Android","deviceName":"192.168.2.75:5589","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"sessionId":"73d405ed-e256-4bce-8db2-16dbf78d5d99"}
-[36minfo[39m: [37m<-- GET /wd/hub/session/73d405ed-e256-4bce-8db2-16dbf78d5d99 [39m[32m200[39m[90m 2.252 ms - 739[39m [90m{"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"192.168.2.75:5589","platformVersion":"7.1.1","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"platformName":"Android","deviceName":"192.168.2.75:5589","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","unicodeKeyboard":true,"resetKeyboard":true},"sessionId":"73d405ed-e256-4bce-8db2-16dbf78d5d99"}[39m
-[36minfo[39m: [debug] Didn't get a new command in 600 secs, shutting down...
-[36minfo[39m: Shutting down appium session
-[36minfo[39m: [debug] Pressing the HOME button
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "input keyevent 3"
-[36minfo[39m: [debug] Resetting IME to 'com.baidu.input_mi/.ImeService'
-[36minfo[39m: [debug] executing cmd: C:\android-sdk\platform-tools\platform-tools\adb.exe -s 192.168.2.75:5589 shell "ime set com.baidu.input_mi/.ImeService"
-[36minfo[39m: [debug] Stopping logcat capture
-[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
-[36minfo[39m: [debug] [BOOTSTRAP] [debug] Closed client connection
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Time: 607.839[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] OK (1 test)[39m
-[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1[39m
-[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
-[36minfo[39m: [debug] UiAutomator shut down normally
-[36minfo[39m: [debug] Cleaning up android objects
-[36minfo[39m: [debug] Cleaning up appium session
-[36minfo[39m: [debug] We shut down because no new commands came in
+[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   address: '127.0.0.1'
+[Appium]   sessionOverride: true
+[Appium]   defaultCommandTimeout: 600
+[Appium]   udid: 'a6a6a8b39904'
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"a6a6a8b39904"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: 'a6a6a8b39904'
+[Appium] Appium REST http interface listener started on 127.0.0.1:4723
+[HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}},"desiredCapabilities":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"},null,{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513859825624 (20:37:05 GMT+0800 (中国标准时间))
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'a6a6a8b39904'
+[Appium]   platformVersion: '6.0'
+[Appium]   unicodeKeyboard: true
+[Appium]   resetKeyboard: true
+[Appium]   appPackage: 'com.zld.zld_face_rec_app'
+[Appium]   appActivity: 'com.zld.zld_face_rec_app.Approach.FindDeviceActivity'
+[Appium]   udid: 'a6a6a8b39904'
+[BaseDriver] Session created with session id: 2d1da85b-7bad-41b0-939c-13ba5588e624
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_131
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: a6a6a8b39904
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to a6a6a8b39904
+[AndroidDriver] App file was not listed, instead we're going to run com.zld.zld_face_rec_app directly on the device
+[debug] [AndroidDriver] Checking whether package is present on the device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","com.zld.zld_face_rec_app"]
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","echo","ping"]
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Enabling Unicode keyboard support
+[debug] [AndroidDriver] Pushing unicode ime to device...
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","install","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-ime@2.0.0@appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[Logcat] Logcat terminated with code 0, signal null
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","settings","get","secure","default_input_method"]
+[debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\android-sdk\build-tools\19.1.0\aapt.exe
+[debug] [ADB] The installed 'io.appium.settings' package is older than 'C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.4.0@io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' (4 < 5). Executing upgrade
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","install","-r","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_io.appium.settings@2.4.0@io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Current device property 'ro.build.version.sdk': 23
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.settings"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","dump","io.appium.settings"]
+[debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;,pm,grant,io.appium.settings,android.permission.CHANGE_CONFIGURATION,;
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","io.appium.unlock"]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.unlock
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\android-sdk\build-tools\19.1.0\aapt.exe
+[debug] [ADB] The installed 'io.appium.unlock' package is older than 'C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-unlock@2.0.0@appium-unlock\bin\unlock_apk-debug.apk' (1 < 2). Executing upgrade
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","install","-r","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-unlock@2.0.0@appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","wm","size"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.product.model"]
+[debug] [ADB] Current device property 'ro.product.model': Redmi Note 4X
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.product.manufacturer"]
+[debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+[AndroidDriver] No app sent in, not parsing package/activity
+[debug] [AndroidDriver] No app capability. Assuming it is already on the device
+[debug] [AndroidDriver] Running fast reset (stop and clear)
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","com.zld.zld_face_rec_app"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","clear","com.zld.zld_face_rec_app"]
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","forward","tcp:4724","tcp:4724"]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","push","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap@2.10.0@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","a6a6a8b39904","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.zld.zld_face_rec_app","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [UiAutomator] Moving to state 'online'
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","start","-W","-n","com.zld.zld_face_rec_app/com.zld.zld_face_rec_app.Approach.FindDeviceActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[ADB] Error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:94:11)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+ Error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:94:11)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[ADB] Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+ Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","com.zld.zld_face_rec_app"]
+[debug] [ADB] Pressing the HOME button
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","input","keyevent",3]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [UiAutomator] Shutting down UiAutomator
+[debug] [UiAutomator] Moving to state 'stopping'
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [UiAutomator] UiAutomator shut down normally
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [Logcat] Stopping logcat capture
+[debug] [Logcat] Logcat already stopped
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","io.appium.unlock"]
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[MJSONWP] Encountered internal error running command: Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[HTTP] <-- POST /wd/hub/session 500 36424 ms - 170 
+[HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}},"desiredCapabilities":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"},null,{"firstMatch":[],"alwaysMatch":{"platformName":"Android","deviceName":"a6a6a8b39904","platformVersion":"6.0","unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.zld.zld_face_rec_app","appActivity":"com.zld.zld_face_rec_app.Approach.FindDeviceActivity"}}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513859863356 (20:37:43 GMT+0800 (中国标准时间))
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'a6a6a8b39904'
+[Appium]   platformVersion: '6.0'
+[Appium]   unicodeKeyboard: true
+[Appium]   resetKeyboard: true
+[Appium]   appPackage: 'com.zld.zld_face_rec_app'
+[Appium]   appActivity: 'com.zld.zld_face_rec_app.Approach.FindDeviceActivity'
+[Appium]   udid: 'a6a6a8b39904'
+[BaseDriver] Session created with session id: 76ce8f08-0bc8-4155-a165-9dc4e991aa30
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_131
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: a6a6a8b39904
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\android-sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to a6a6a8b39904
+[AndroidDriver] App file was not listed, instead we're going to run com.zld.zld_face_rec_app directly on the device
+[debug] [AndroidDriver] Checking whether package is present on the device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","com.zld.zld_face_rec_app"]
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","echo","ping"]
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Enabling Unicode keyboard support
+[debug] [AndroidDriver] Pushing unicode ime to device...
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","install","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-ime@2.0.0@appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","settings","get","secure","default_input_method"]
+[debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\android-sdk\build-tools\19.1.0\aapt.exe
+[debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Current device property 'ro.build.version.sdk': 23
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.settings"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","dump","io.appium.settings"]
+[debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","list","packages","io.appium.unlock"]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.unlock
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\android-sdk\build-tools\19.1.0\aapt.exe
+[debug] [ADB] The installed 'io.appium.unlock' package is older than 'C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-unlock@2.0.0@appium-unlock\bin\unlock_apk-debug.apk' (1 < 2). Executing upgrade
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","install","-r","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-unlock@2.0.0@appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","wm","size"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.product.model"]
+[debug] [ADB] Current device property 'ro.product.model': Redmi Note 4X
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","getprop","ro.product.manufacturer"]
+[debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+[AndroidDriver] No app sent in, not parsing package/activity
+[debug] [AndroidDriver] No app capability. Assuming it is already on the device
+[debug] [AndroidDriver] Running fast reset (stop and clear)
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","com.zld.zld_face_rec_app"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","pm","clear","com.zld.zld_face_rec_app"]
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","forward","tcp:4724","tcp:4724"]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","push","C:\\Users\\CY\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap@2.10.0@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","a6a6a8b39904","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.zld.zld_face_rec_app","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","start","-W","-n","com.zld.zld_face_rec_app/com.zld.zld_face_rec_app.Approach.FindDeviceActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[ADB] Error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:94:11)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+ Error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:94:11)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[ADB] Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+ Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","com.zld.zld_face_rec_app"]
+[debug] [ADB] Pressing the HOME button
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","input","keyevent",3]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [UiAutomator] Shutting down UiAutomator
+[debug] [UiAutomator] Moving to state 'stopping'
+[debug] [UiAutomator] UiAutomator shut down normally
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\android-sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6a6a8b39904","shell","am","force-stop","io.appium.unlock"]
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[MJSONWP] Encountered internal error running command: Error: Error occured while starting App. Original error: Permission to start activity denied.
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\CY\AppData\Roaming\npm\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+[HTTP] <-- POST /wd/hub/session 500 20684 ms - 170 
+
+C:\Users\CY\Desktop\UIAutotest\TestCase\Android>

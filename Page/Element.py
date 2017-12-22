@@ -111,7 +111,7 @@ def is_element_present(driver: object, locator: object) -> object:
         return False
 
 
-def get_element_3s(driver: object, element_meta_data: object, time_sum) -> object:
+def get_element_3s(driver, element_meta_data, time_sum):
     """
 
     :param element_meta_data:

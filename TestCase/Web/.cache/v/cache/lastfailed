@@ -1,5 +1,1 @@
-{
-  "test_WorkmanContract.py::WorkmanContract::test_02_workman_contract_piece": true,
-  "test_WorkmanContract.py::WorkmanContract::test_03_change_workman_contract_date": true,
-  "test_WorkmanContract.py::WorkmanContract::test_06_out_of_date_workers": true
-}
+{}

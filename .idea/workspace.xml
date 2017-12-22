@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9688e1b-3d0c-4dd1-a498-49757c3e95eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/file/mobile_number.xlsx" afterPath="$PROJECT_DIR$/Page/file/mobile_number.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page/android/android_registration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page/android/handle_permissions_popovers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCase/Android/test_android_login.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestCase/Android/login.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/XXXX.py" afterPath="$PROJECT_DIR$/Page/web/XXXX.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/web_login.py" afterPath="$PROJECT_DIR$/Page/web/web_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/web/workman_contract.py" afterPath="$PROJECT_DIR$/Page/web/workman_contract.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Element.py" afterPath="$PROJECT_DIR$/Page/Element.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/android/android_login.py" afterPath="$PROJECT_DIR$/Page/android/android_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/android/get_udid.py" afterPath="$PROJECT_DIR$/Page/android/get_udid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Android/logs.log" afterPath="$PROJECT_DIR$/TestCase/Android/logs.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/TestCase/Web/.cache/v/cache/lastfailed" />
+    </list>
+    <list id="607200cf-002b-4743-94ed-305a9ad8ab86" name="New changelist" comment="mimi">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/setting.ini" afterPath="$PROJECT_DIR$/TestCase/Web/setting.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" afterPath="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,6 +41,7 @@
     <SUITE FILE_PATH="coverage/UIAutotest$time__1_.coverage" NAME="time (1) Coverage Results" MODIFIED="1499758746231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UIAutotest$Execution_case.coverage" NAME="Execution_case Coverage Results" MODIFIED="1513079952008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_PersonalInformation_and_test_01_work_experience.coverage" NAME="py.test in PersonalInformation and test_01_work_experience Coverage Results" MODIFIED="1512654226246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$appregister.coverage" NAME="appregister Coverage Results" MODIFIED="1513842468730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/android" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_CyGoHome__1_.coverage" NAME="py.test in CyGoHome (1) Coverage Results" MODIFIED="1511166187187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$sql__1_.coverage" NAME="sql (1) Coverage Results" MODIFIED="1503656609987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_NewCompany_and_test_newCompany.coverage" NAME="py.test in NewCompany and test_newCompany Coverage Results" MODIFIED="1507811939291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -46,11 +54,12 @@
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_StaffSet_and_test_01_SetManager.coverage" NAME="py.test in StaffSet and test_01_SetManager Coverage Results" MODIFIED="1513044717543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$attendance_machine.coverage" NAME="attendance_machine Coverage Results" MODIFIED="1512526107188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_PersonalInformation_and_test_04_personal_certificate.coverage" NAME="py.test in PersonalInformation and test_04_personal_certificate Coverage Results" MODIFIED="1513133879117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$android_login.coverage" NAME="android_login Coverage Results" MODIFIED="1513912204960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/android" />
     <SUITE FILE_PATH="coverage/UIAutotest$test.coverage" NAME="test Coverage Results" MODIFIED="1508291902533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TeseCase/Web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_SettingArea_and_test_01_setting_area.coverage" NAME="py.test in SettingArea and test_01_setting_area Coverage Results" MODIFIED="1510751083145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WorkmanContract__1_.coverage" NAME="py.test in WorkmanContract (1) Coverage Results" MODIFIED="1513147502495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_MyWebsocket_py.coverage" NAME="py.test in MyWebsocket.py Coverage Results" MODIFIED="1500882959455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WebLogin.coverage" NAME="py.test in WebLogin Coverage Results" MODIFIED="1511771064439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WebLogin.coverage" NAME="py.test in WebLogin Coverage Results" MODIFIED="1513840797910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_WebLogin_and_test_login.coverage" NAME="py.test in WebLogin and test_login Coverage Results" MODIFIED="1510130147601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_StaffSet_and_testSetManager.coverage" NAME="py.test in StaffSet and testSetManager Coverage Results" MODIFIED="1510282814153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$OOO.coverage" NAME="OOO Coverage Results" MODIFIED="1511765252777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TeseCase/Web" />
@@ -64,16 +73,18 @@
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_new_company_py.coverage" NAME="py.test in new_company.py Coverage Results" MODIFIED="1511921928483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_StaffSet.coverage" NAME="py.test in StaffSet Coverage Results" MODIFIED="1513043565123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_test_py.coverage" NAME="py.test in test.py Coverage Results" MODIFIED="1510056846523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_test_android_login_py.coverage" NAME="py.test in test_android_login.py Coverage Results" MODIFIED="1513912110546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$run_path.coverage" NAME="run_path Coverage Results" MODIFIED="1511765760633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_NewCompany.coverage" NAME="py.test in NewCompany Coverage Results" MODIFIED="1511921272827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_CyGoHome.coverage" NAME="py.test in CyGoHome Coverage Results" MODIFIED="1511256327380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_SettingArea_and_test_04_project_delay.coverage" NAME="py.test in SettingArea and test_04_project_delay Coverage Results" MODIFIED="1512649777854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$get_udid.coverage" NAME="get_udid Coverage Results" MODIFIED="1513779372457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/android" />
     <SUITE FILE_PATH="coverage/UIAutotest$WebLogin.coverage" NAME="WebLogin Coverage Results" MODIFIED="1506411031981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TeseCase/Web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Register_and_test_register.coverage" NAME="py.test in Register and test_register Coverage Results" MODIFIED="1507811993682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$web_regfast.coverage" NAME="web_regfast Coverage Results" MODIFIED="1508205855295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_DeviceManagement.coverage" NAME="py.test in DeviceManagement Coverage Results" MODIFIED="1512547311742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_DeviceManagement_and_test_01_attendance_machine.coverage" NAME="py.test in DeviceManagement and test_01_attendance_machine Coverage Results" MODIFIED="1512547560504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/UIAutotest$login.coverage" NAME="login Coverage Results" MODIFIED="1513577697600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Android" />
+    <SUITE FILE_PATH="coverage/UIAutotest$login.coverage" NAME="login Coverage Results" MODIFIED="1513910299871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Android" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_NewCompany_and_test_NewCompany.coverage" NAME="py.test in NewCompany and test_NewCompany Coverage Results" MODIFIED="1512634404433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$web_login.coverage" NAME="web_login Coverage Results" MODIFIED="1507704196978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
     <SUITE FILE_PATH="coverage/UIAutotest$new_general_contract.coverage" NAME="new_general_contract Coverage Results" MODIFIED="1509437255315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
@@ -106,8 +117,10 @@
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Test_and_test_01_asa.coverage" NAME="py.test in Test and test_01_asa Coverage Results" MODIFIED="1511437255129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_staff_set_py.coverage" NAME="py.test in staff_set.py Coverage Results" MODIFIED="1510224361820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_AndroidLogin.coverage" NAME="py.test in AndroidLogin Coverage Results" MODIFIED="1510900508109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Android_login.coverage" NAME="py.test in Android_login Coverage Results" MODIFIED="1513929139538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_SettingArea.coverage" NAME="py.test in SettingArea Coverage Results" MODIFIED="1511935924597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_AddPackageContract.coverage" NAME="py.test in AddPackageContract Coverage Results" MODIFIED="1513323050281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_Android_login_and_test_02_registration.coverage" NAME="py.test in Android_login and test_02_registration Coverage Results" MODIFIED="1513927988925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/UIAutotest$MyWebsocket.coverage" NAME="MyWebsocket Coverage Results" MODIFIED="1500883893512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CY" />
     <SUITE FILE_PATH="coverage/UIAutotest$XXXXX.coverage" NAME="XXXXX Coverage Results" MODIFIED="1513304147082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/web" />
     <SUITE FILE_PATH="coverage/UIAutotest$py_test_in_NewCompany_and_test_new_company.coverage" NAME="py.test in NewCompany and test_new_company Coverage Results" MODIFIED="1507811778137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -135,103 +148,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_WorkmanContract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py">
+      <file leaf-file-name="android_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/android/android_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XXXX.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Page/web/XXXX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workman_contract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/web/workman_contract.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/web/web_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/Android/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XXXXX.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/web/XXXXX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_general_contract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/web/new_general_contract.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2603">
-              <caret line="137" column="103" selection-start-line="137" selection-start-column="103" selection-end-line="137" selection-end-column="103" />
+            <state relative-caret-position="266">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <element signature="e#36#49#0" expanded="true" />
+                <element signature="e#33#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_package_contract.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/Web/test_add_package_contract.py">
+      <file leaf-file-name="test_android_login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/Android/test_android_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+              <folding>
+                <element signature="e#34#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android_registration.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/android/android_registration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+              <folding>
+                <element signature="e#36#72#0" expanded="true" />
+                <marker date="1513928610461" expanded="true" signature="170:928" ph="..." />
+                <marker date="1513928610461" expanded="true" signature="179:837" ph="..." />
+                <marker date="1513928610461" expanded="true" signature="864:928" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_path.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/random_data.py">
+      <file leaf-file-name="test_register.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/Web/test_register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+            <state relative-caret-position="209">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_now_time.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/web/get_now_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handle_permissions_popovers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/android/handle_permissions_popovers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#46#0" expanded="true" />
+                <marker date="1513910299858" expanded="true" signature="147:596" ph="..." />
+                <marker date="1513910299858" expanded="true" signature="246:573" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appregister.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/android/appregister.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="53" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="53" />
+              <folding>
+                <element signature="e#22#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/Element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -247,20 +263,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TeseCase/Web/WorkmanContract.py" />
-        <option value="$PROJECT_DIR$/TeseCase/Web/OOO.py" />
-        <option value="$PROJECT_DIR$/Page/web/LLL.py" />
-        <option value="$PROJECT_DIR$/TeseCase/Web/run_case.py" />
-        <option value="$PROJECT_DIR$/TestCase/Web/run_case.py" />
-        <option value="$PROJECT_DIR$/Page/web/HTMLTestRunner_jpg.py" />
-        <option value="$PROJECT_DIR$/run_path.py" />
-        <option value="$PROJECT_DIR$/TestCase/Web/login.py" />
-        <option value="$PROJECT_DIR$/Page/web/HTMLTestRunner_screenshot.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/register.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/WorkmanContract.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/new_company.py" />
@@ -291,7 +299,6 @@
         <option value="$PROJECT_DIR$/Page/web/get_now_time.py" />
         <option value="$PROJECT_DIR$/Page/android/stop_appium.py" />
         <option value="$PROJECT_DIR$/Page/web/personal_information.py" />
-        <option value="$PROJECT_DIR$/TestCase/Android/login.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/test_company_information.py" />
         <option value="$PROJECT_DIR$/Page/web/select_city.py" />
         <option value="$PROJECT_DIR$/Page/web/new_general_contract.py" />
@@ -303,6 +310,16 @@
         <option value="$PROJECT_DIR$/Page/web/workman_contract.py" />
         <option value="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
         <option value="$PROJECT_DIR$/Page/web/XXXX.py" />
+        <option value="$PROJECT_DIR$/TestCase/Android/logs.log" />
+        <option value="$PROJECT_DIR$/Page/android/logs.log" />
+        <option value="$PROJECT_DIR$/Page/android/get_udid.py" />
+        <option value="$PROJECT_DIR$/Page/android/appregister.py" />
+        <option value="$PROJECT_DIR$/Page/Element.py" />
+        <option value="$PROJECT_DIR$/Page/android/handle_permissions_popovers.py" />
+        <option value="$PROJECT_DIR$/TestCase/Android/login.py" />
+        <option value="$PROJECT_DIR$/Page/android/android_registration.py" />
+        <option value="$PROJECT_DIR$/Page/android/android_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/Android/test_android_login.py" />
       </list>
     </option>
   </component>
@@ -377,6 +394,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -474,24 +492,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="file" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -534,13 +534,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IscsUIAutomation" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -554,25 +553,7 @@
       <recent name="C:\Users\CY\Desktop\UIAutotest\CY" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in WorkmanContract">
-    <configuration default="false" name="random_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Page" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page/random_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in Android_login">
     <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -591,7 +572,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_WorkmanContract.py" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in Android_login" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -609,39 +590,57 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py" />
+      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Android/test_android_login.py" />
+      <option name="keywords" value="Android_login" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_android_login.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Android/test_android_login.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in WorkmanContract and test_01_workman_contract_time" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="android_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Page/android" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Page/web/XXXX.py" />
-      <option name="keywords" value="WorkmanContract and test_01_workman_contract_time" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page/android/android_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in WorkmanContract" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in Android_login and test_02_registration" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -659,8 +658,8 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Page/web/XXXX.py" />
-      <option name="keywords" value="WorkmanContract" />
+      <option name="testToRun" value="$PROJECT_DIR$/TestCase/Android/test_android_login.py" />
+      <option name="keywords" value="Android_login and test_02_registration" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -894,18 +893,18 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.run_case (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.random_data" />
-      <item index="2" class="java.lang.String" itemvalue="Python.login" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract and test_01_workman_contract_time" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract" />
+      <item index="1" class="java.lang.String" itemvalue="Python.login" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in Android_login" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_android_login.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.android_login" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in Android_login and test_02_registration" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in WorkmanContract and test_01_workman_contract_time" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_WorkmanContract.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.random_data" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Android_login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Android_login and test_02_registration" />
+        <item index="2" class="java.lang.String" itemvalue="Python.android_login" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_android_login.py" />
         <item index="4" class="java.lang.String" itemvalue="Python.login" />
       </list>
     </recent_temporary>
@@ -919,6 +918,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9688e1b-3d0c-4dd1-a498-49757c3e95eb" name="Default" comment="" />
+      <changelist id="607200cf-002b-4743-94ed-305a9ad8ab86" name="New changelist" comment="mimi" />
       <created>1497949699767</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -952,39 +952,46 @@
       <option name="project" value="LOCAL" />
       <updated>1513674042571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update workman_contract add out_of_date">
+      <created>1513675720655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513675720655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_CompanyInformation_and_test_add_company_information - 2017.12.14 at 10h 37m 44s.xml">
-      <configuration name="py.test in CompanyInformation and test_add_company_information" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 11h 11m 45s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_PersonalInformation - 2017.12.14 at 10h 28m 54s.xml">
-      <configuration name="py.test in PersonalInformation" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 11h 12m 43s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 19m 42s.xml">
-      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 11h 18m 12s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 21m 10s.xml">
-      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 21m 04s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract - 2017.12.19 at 17h 27m 38s.xml">
-      <configuration name="py.test in WorkmanContract" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 23m 24s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 14m 01s.xml">
-      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 27m 33s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 14m 43s.xml">
-      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 33m 02s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_WorkmanContract_and_test_01_workman_contract_time - 2017.12.19 at 17h 15m 16s.xml">
-      <configuration name="py.test in WorkmanContract and test_01_workman_contract_time" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 38m 26s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_WorkmanContract_py - 2017.12.19 at 16h 41m 32s.xml">
-      <configuration name="py.test in test_WorkmanContract.py" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 45m 40s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_package_contract_py - 2017.12.15 at 15h 37m 30s.xml">
-      <configuration name="py.test in test_add_package_contract.py" configurationId="tests" />
+    <history-entry file="py_test_in_Android_login - 2017.12.22 at 15h 54m 29s.xml">
+      <configuration name="py.test in Android_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -997,14 +1004,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328541" sideWeight="0.874036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518637" sideWeight="0.874036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10885806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4789189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1019,6 +1025,7 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30368763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1080,7 +1087,9 @@
     <MESSAGE value="my first push myself github" />
     <MESSAGE value="delete photo" />
     <MESSAGE value="delete setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete setting" />
+    <MESSAGE value="update workman_contract add out_of_date" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workman_contract add out_of_date" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,101 +1114,41 @@
           <line>138</line>
           <option name="timeStamp" value="565" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/android/get_udid.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/android/appregister.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/android/appregister.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/android/get_udid.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/android/appregister.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="588" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="568" />
+      <option name="time" value="597" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-21-01-02.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-20-59-50.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-21-00-30.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-07-21-40-14.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-09-14-53-37.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-09-14-53-40.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-12-19-59-54.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-12-20-27-52.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/personal_information.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/web_regfast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-11-24-50.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-11-33-39.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-14-02-01.jpg" />
-    <entry file="file://$PROJECT_DIR$/Page/android/start_appium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/android/stop_appium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/android/get_udid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_staff_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" column="106" selection-start-line="49" selection-start-column="106" selection-end-line="49" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/setting_area.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_device_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/camera_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/Web/test_initiate_application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1224,18 +1173,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-16-29-10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-16-29-10.jpg" />
     <entry file="file://$PROJECT_DIR$/TestCase/Web/test_PersonalInformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -1271,11 +1209,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-05-10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-13-17-05-10.jpg" />
     <entry file="file://$PROJECT_DIR$/Page/web/attendance_machine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1302,9 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="42" column="26" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4009">
           <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,7 +1251,7 @@
         <state relative-caret-position="2603">
           <caret line="137" column="103" selection-start-line="137" selection-start-column="103" selection-end-line="137" selection-end-column="103" />
           <folding>
-            <element signature="e#36#49#0" expanded="true" />
+            <element signature="e#36#49#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1333,19 +1263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Android/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/random_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,23 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/android/android_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,15 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/web/web_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,23 +1293,234 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/Web/test_WorkmanContract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="1311">
           <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/web/XXXX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="456">
           <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Web/setting.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8740">
+          <caret line="463" column="0" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4541">
+          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="429" column="8" selection-start-line="429" selection-start-column="8" selection-end-line="429" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Android/logs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/logs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/stop_appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/start_appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/get_udid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/appregister.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="53" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Android/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/web/web_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/web/logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/web/get_now_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/bug_photo/2017-12-22-11-18-11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/handle_permissions_popovers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+            <marker date="1513910299858" expanded="true" signature="147:596" ph="..." />
+            <marker date="1513910299858" expanded="true" signature="246:573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/Element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Web/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/android_registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+          <folding>
+            <element signature="e#36#72#0" expanded="true" />
+            <marker date="1513928610461" expanded="true" signature="170:928" ph="..." />
+            <marker date="1513928610461" expanded="true" signature="179:837" ph="..." />
+            <marker date="1513928610461" expanded="true" signature="864:928" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/android/android_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#33#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Android/test_android_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <element signature="e#34#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

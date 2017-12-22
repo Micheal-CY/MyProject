@@ -34,3 +34,27 @@ def get_ios_udid():
     except Exception as e:
         print(e)
         return False
+
+
+def get_android_version():
+    try:
+        cmd = 'adb shell getprop ro.build.version.release'
+        result = exec_cmd(cmd)
+        a = result[0].split('\t')
+        return a[0][:3]
+    except Exception as e:
+        print(e)
+        return False
+
+
+def android_7_uninstall():
+    try:
+        cmd = 'adb uninstall io.appium.android.ime'
+        exec_cmd(cmd)
+    except Exception as e:
+        print(e)
+        return False
+if __name__ == '__main__':
+    a = get_android_version()
+    print(a)
+    print(type(a))
