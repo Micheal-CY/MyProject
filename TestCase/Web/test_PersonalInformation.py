@@ -27,7 +27,7 @@ class PersonalInformation(unittest.TestCase):
         cls.path = setting_path()
         cls.file_path = r'C:\Users\%s\Desktop\UIAutotest\Page\file\1.jpg' % (str(getpass.getuser()))
         config.read(cls.path)
-        url = config.get('testUrl', 'perfurl')
+        url = config.get('testUrl', 'url')
         cls.password = config.get('operation', 'password')
         # 随机姓名
         cls.people_name = getPeopleName()

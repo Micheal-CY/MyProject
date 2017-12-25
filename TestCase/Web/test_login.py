@@ -14,7 +14,7 @@ class WebLogin(unittest.TestCase):
         config.read(setting_path())
         self.browser = browse_driver.Firefox()
         self.browser.maximize_window()
-        self.browser.get(config.get('testUrl', 'perfurl'))
+        self.browser.get(config.get('testUrl', 'url'))
         self.username = config.get('operation', 'username')
         self.password = config.get('operation', 'password')
 

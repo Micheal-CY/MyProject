@@ -19,7 +19,7 @@ class SettingTeam(unittest.TestCase):
         conf.read(self.path)
         self.username = conf.get('projectManager', 'taohui')
         self.password = conf.get('operation', 'password')
-        url = conf.get('testUrl', 'perfurl')
+        url = conf.get('testUrl', 'url')
         self.browser = browse_driver.Firefox()
         self.browser.maximize_window()
         self.browser.implicitly_wait(5)

@@ -22,7 +22,7 @@ class WorkmanContract(unittest.TestCase):
         self.path = setting_path()
         self.file_path = r'C:\Users\%s\Desktop\UIAutotest\Page\file\1.jpg' % (str(getpass.getuser()))
         config.read(self.path)
-        url = config.get('testUrl', 'perfurl')
+        url = config.get('testUrl', 'url')
         self.username = config.get('labor', 'Wuhuigang')
         self.username1 = config.get('projectManager', 'taohui')
         self.password = config.get('operation', 'password')
