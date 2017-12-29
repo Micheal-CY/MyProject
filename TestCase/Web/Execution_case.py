@@ -2,6 +2,8 @@
 # auth cy
 import unittest
 
+import sys
+sys.path.append(r'C:\Users\CY\Desktop\UIAutotest')
 from Page.web import HTMLTestRunner_screenshot
 from run_path import run_path, test_report_path
 

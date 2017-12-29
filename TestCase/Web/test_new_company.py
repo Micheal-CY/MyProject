@@ -39,7 +39,7 @@ class NewCompany(unittest.TestCase):
         self.driver.find_element_by_xpath("//input[@placeholder='0000XX0000']").send_keys(random_str(18))
         # a = self.driver.find_element_by_xpath(".//*[@id='company-address']/div/div[1]/select")
         # a.find_element_by_xpath("//option[@value='北京市']").click()  # 方法1
-        self.driver.find_element_by_xpath(".//*[@id='company-address']/div/div[1]/select/option[3]").click()  # 方法2 省
+        self.driver.find_element_by_xpath(".//*[@id='company-address']/div/div[1]/select/option[12]").click()  # 方法2 省
         # Select(a).select_by_value('内蒙古自治区')  # 方法3
         self.driver.find_element_by_xpath(".//*[@id='company-address']/div/div[2]/select/option[2]").click()  # 市
         self.driver.find_element_by_xpath(".//*[@id='company-address']/div/div[3]/select/option[3]").click()  # 区

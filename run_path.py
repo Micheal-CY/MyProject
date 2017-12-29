@@ -9,7 +9,9 @@ def run_path():
 
 def test_report_path():
     cur_path = os.path.dirname(os.path.realpath(__file__))
+    print(cur_path)
     case_path = os.path.join(cur_path, "Page\\file")
+    print(case_path)
     return case_path
 
 
