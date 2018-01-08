@@ -94,7 +94,7 @@ def workman_contract_piece(driver, artifact_name, people):
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[0].send_keys(artifact_name)
         address = ['上海', '北京', '广州', '杭州', '无锡', '苏州', '徐州']
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[1].send_keys(
-            address[random.randint(0, len(address))])
+            address[random.randint(0, len(address)-1)])
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[2].send_keys(random.randint(88, 188))
         get_elements(driver, ('xpath', "//input[@placeholder='必填']"))[3].send_keys(random.randint(199, 399))
         get_element(driver, ('xpath', "//textarea[@placeholder='选填']")).send_keys('优秀的完成')

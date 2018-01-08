@@ -89,7 +89,7 @@ class CompanyInformation(unittest.TestCase):
             sleep(3)
             certificate_number_list_1 = []
             j = 2
-            sleep(0.5)
+            sleep(1)
             new_select_companys_name = self.browser.find_elements_by_xpath(new_elem)
             # 获取所有的证书号码
             for i in range(int(len(new_select_companys_name) / 6)):
