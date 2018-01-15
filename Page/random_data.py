@@ -120,7 +120,7 @@ def getContractName():
 
 def getPeopleName():
     # 随机姓名
-    return last_names[random.randint(1, len(last_names))] + first_names[random.randint(1, len(first_names))]
+    return last_names[random.randint(1, len(last_names)-1)] + first_names[random.randint(1, len(first_names)-1)]
 
 
 def getRandomName():
@@ -211,7 +211,7 @@ def get_temporary_mobile_number():
     ws1 = wb1.get_sheet_by_name(sheets_first)
     return ws1['A1'].value
 if __name__ == '__main__':
-    a = get_temporary_mobile_number()
+    a = getPeopleName()
     print(a)
     print(type(a))
 

@@ -92,10 +92,17 @@ def web_employee_registration(browser, name, mobile, password, company_name):
     sleep(0.5)
     browser.find_element_by_xpath("//div[contains(text(),'企业员工')]").click()
     get_element(browser, ('xpath', "//input[@data-pattern-message='请输入正确的手机号码']")).send_keys(mobile)
+    sleep(0.5)
     get_elements(browser, ('xpath', "//span[contains(text(),'点击获取验证码')]"))[0].click()
     if is_element_present_3s(browser, ('xpath', "//div[contains(text(),'此号码已经存在，无需注册')]"), 5):
         get_element(browser, ('id', 'username')).send_keys(get_mobile())
-    get_element(browser, ('xpath', "//input[@placeholder='短信校验码']")).send_keys('11111')
+    if is_element_present_3s(browser, ('xpath', "//input[@data-tip='请输入真实姓名']"), 4):
+        get_element(browser, ('xpath', "//input[@placeholder='短信校验码']")).send_keys('11111')
+    else:
+        browser.find_element_by_xpath("//div[contains(text(),'企业员工')]").click()
+        get_element(browser, ('xpath', "//input[@data-pattern-message='请输入正确的手机号码']")).send_keys(mobile)
+        get_element(browser, ('xpath', "//input[@placeholder='短信校验码']")).clear()
+        get_element(browser, ('xpath', "//input[@placeholder='短信校验码']")).send_keys('11111')
     get_element(browser, ('xpath', "//input[@data-tip='请输入真实姓名']")).send_keys(name)
     get_element(browser, ('id', "password1")).send_keys(password)
     get_element(browser, ('xpath', "//input[@data-tip='请再新输入密码']")).send_keys(password)
@@ -106,7 +113,9 @@ def web_employee_registration(browser, name, mobile, password, company_name):
     get_element(browser, ('xpath', "//input[@class='select2-search__field' and @type='search']")).send_keys(Keys.ENTER)
     get_element(browser, ('xpath', "//input[@class='agree-input']")).click()
     get_element(browser, ('xpath', "//button[contains(text(),'创建账户')]")).click()
-    if '成功:公司职员注册' == get_element(browser, ('xpath', "//div[contains(text(),'成功:公司职员注册')]")).text:
+    sleep(0.5)
+    a = get_element(browser, ('xpath', "//div[contains(text(),'成功:公司职员注册')]")).text
+    if '成功:公司职员注册' == a:
         pass
     else:
         print("失败:公司职员注册")

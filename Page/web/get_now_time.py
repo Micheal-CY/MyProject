@@ -2,6 +2,7 @@
 # auth:cy
 import datetime
 import os
+import re
 
 
 def screenshot_path() -> object:
@@ -37,4 +38,7 @@ def get_pass_dates(number):
     return pass_dates
 
 if __name__ == '__main__':
-    print(get_future_date(600))
+    print(get_now_dates())
+    r = r'\d{4}-\d{2}'
+    text = re.findall(r, get_now_dates())
+    print(text)

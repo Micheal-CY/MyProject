@@ -2,7 +2,6 @@
 # auth : cy
 import random
 from time import sleep
-
 from selenium.webdriver.common.keys import Keys
 from Page.Element import get_element, get_elements
 from Page.random_data import setting_input_time, getCompanyName

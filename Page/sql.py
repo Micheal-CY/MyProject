@@ -27,24 +27,26 @@ def UserMysql(db):
         port=server.local_bind_port)
     cursor =myConfig.cursor()
     start_time = 0
-    for z in range(1, 6):
-        day = timedelta(days=z)
-        print(d+day)
-        for i in range(1, get_user_id(zld_test)):
-            start_time = start_time + random.randint(60, 3600)
-            a = time.localtime(start_time)
-            change_time = time.strftime("%H:%M:%S", a)
-            sql = """insert into
-            project_attendanceinstant(day, time, type, attendance_machine_id, user_id )
-            VALUES ('%s','%s','%d',5,'173')""" % (d + day, change_time, Type())
-            print(sql)
-            rel = cursor.execute(sql)
-            myConfig.commit()
-            # sleep(0.5)
-            print(rel)
-            if int(time.strftime("%H", a)) == 23 and int(time.strftime("%M", a)) >= 30:
-                print('a')
-                continue
+    # for z in range(1, 6):
+    # day = timedelta(days=z)
+    # print(d+day)
+    sql = '''select * from auth_user'''
+        # for i in range(1, get_user_id(zld_test)):
+        #     start_time = start_time + random.randint(60, 3600)
+            # a = time.localtime(start_time)
+            # change_time = time.strftime("%H:%M:%S", a)
+
+            # sql = """insert into
+            # project_attendanceinstant(day, time, type, attendance_machine_id, user_id )
+            # VALUES ('%s','%s','%d',5,'173')""" % (d + day, change_time, Type())
+    print(sql)
+    rel = cursor.execute(sql)
+    myConfig.commit()
+        # sleep(0.5)
+    print(rel)
+            # if int(time.strftime("%H", a)) == 23 and int(time.strftime("%M", a)) >= 30:
+            #     print('a')
+            #     continue
     # myConfig.commit()
     # 关闭数据库连接
     cursor.close()

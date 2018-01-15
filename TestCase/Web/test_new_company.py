@@ -5,7 +5,7 @@ from configparser import ConfigParser
 from time import sleep
 
 from selenium import webdriver as browser_driver
-from Page.Element import is_element_present
+from Page.Element import is_element_present, get_element
 from Page.random_data import getCompanyName, random_str, getRandomName, get_org_no, getPeopleName, get_mobile
 from Page.web.into_level import into_one_level, into_two_level
 from Page.web.web_login import web_login
@@ -30,8 +30,6 @@ class NewCompany(unittest.TestCase):
 
     def test_NewCompany(self):
         company_name = getCompanyName()
-        people_name = getPeopleName()
-        mobile = get_mobile()
         into_one_level(self.driver, '运维面板')
         into_two_level(self.driver, '注册公司管理')
         self.driver.find_element_by_xpath("//button[contains(text(),'新增')]").click()
@@ -52,15 +50,15 @@ class NewCompany(unittest.TestCase):
         self.driver.find_element_by_xpath("//button[contains(text(),'完成')]").click()
         self.driver.refresh()
         sleep(2)
-        # if is_element_present(self.driver, ('xpath', "html/body/div[1]/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/div[4]/div[2]/ul/li[1]/a")):
-        #     sleep(0.5)
-        #     self.driver.find_element_by_xpath(
-        #         "html/body/div[1]/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/div[4]/div[2]/ul/li[1]/a").click()
         elem = "//td[contains(text(),%s)]" % company_name
-        new_company_name = self.driver.find_elements_by_xpath(elem)[-5].text
+        get_element(self.driver, ('xpath', "//input[@placeholder='请输入公司名称筛选']")).send_keys(company_name)
+        get_element(self.driver, ('xpath', "//button[contains(text(),'搜索')]")).click()
+        sleep(1)
+        new_company_name = self.driver.find_elements_by_xpath(elem)[0].text
         assert new_company_name == company_name
-        self.driver.find_element_by_xpath("//input[@placeholder='请输入公司名称筛选']").send_keys(company_name)
-        self.driver.find_element_by_xpath("//button[contains(text(),'搜索')]").click()
+        get_element(self.driver, ('xpath', "//input[@placeholder='请输入公司名称筛选']")).clear()
+        get_element(self.driver, ('xpath', "//input[@placeholder='请输入公司名称筛选']")).send_keys(company_name)
+        get_element(self.driver, ('xpath', "//button[contains(text(),'搜索')]")).click()
         elem = "//td[contains(text(),%s)]" % company_name
         select_company_name = self.driver.find_element_by_xpath(elem).text
         assert select_company_name == company_name  # 全称查询公司

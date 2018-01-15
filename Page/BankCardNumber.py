@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
+import re
 from random import Random
+import random
 import copy
-
+generator = Random()
+generator.seed()  # Seed from current time
 visaPrefixList = [
     ['4', '5', '3', '9'],
     ['4', '5', '5', '6'],
@@ -100,14 +103,11 @@ def output(title, numbers):
     return '\n'.join(result)
 
 
-#
-# Main
-#
-
-generator = Random()
-generator.seed()  # Seed from current time
-# Minor cards
-
-discover = credit_card_number(generator, discoverPrefixList, 16, 1)
-print(output("Discover", discover))
-
+def get_bank_card_number():
+    discover = credit_card_number(generator, discoverPrefixList, 16, 1)
+    r = r'\w{16}'
+    text = re.findall(r, str(discover))
+    return str(text)
+if __name__ == '__main__':
+    a = get_bank_card_number()
+    print(a[0])
